@@ -196,7 +196,7 @@ colab/05_figuras_articulo.ipynb
   year    = {2026},
   institution = {Universidad Nacional Mayor de San Marcos},
   address = {Lima, Per{\'u}},
-  url     = {https://github.com/erikgiancruz/trayectorias-postdeforestacion-peru}
+  url     = {https://github.com/Erikcruz1234/trayectorias-postdeforestacion-peru}
 }
 ```
 
