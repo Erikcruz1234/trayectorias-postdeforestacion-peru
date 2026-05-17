@@ -1,0 +1,37 @@
+Creative Commons Attribution-NonCommercial 4.0 International License (CC BY-NC 4.0)
+
+Copyright (c) 2026 Erik Gianmarco Cruz Cruz
+Universidad Nacional Mayor de San Marcos, Lima, Perú
+
+You are free to:
+  Share — copy and redistribute the material in any medium or format
+  Adapt — remix, transform, and build upon the material
+
+Under the following terms:
+  Attribution — You must give appropriate credit, provide a link to the license,
+                and indicate if changes were made. You may do so in any reasonable
+                manner, but not in any way that suggests the licensor endorses you
+                or your use.
+
+  NonCommercial — You may not use the material for commercial purposes.
+
+No additional restrictions — You may not apply legal terms or technological
+measures that legally restrict others from doing anything the license permits.
+
+Full license text: https://creativecommons.org/licenses/by-nc/4.0/legalcode
+
+──────────────────────────────────────────────────────────────────────────────
+CITATION / CÓMO CITAR
+
+If you use this code in your research, please cite:
+
+  Cruz Cruz, E.G. (2026). Trayectorias post-deforestación en la Amazonía
+  peruana (2021–2025): análisis de destinos de cobertura, trayectorias
+  dinámicas y predicción prospectiva mediante Random Forest, interpretabilidad
+  SHAP y grupo control de pseudo-alertas basado en datos de MapBiomas.
+  Universidad Nacional Mayor de San Marcos, Lima, Perú.
+  GitHub: https://github.com/erikgiancruz/trayectorias-postdeforestacion-peru
+
+Data citation:
+  MapBiomas (2026). MapBiomas Alerta Perú — Alertas de deforestación
+  2021–2025. https://plataforma.peru.alerta.mapbiomas.org/

@@ -1,0 +1,44 @@
+# Datos (no subir — demasiado pesados y algunos tienen acceso restringido)
+data/
+*.shp
+*.gpkg
+*.csv
+*.geojson
+*.tif
+*.zip
+
+# Excepciones: archivos de ejemplo pequeños sí se incluyen
+!docs/ejemplo_estructura_datos.md
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyc
+.env
+venv/
+.ipynb_checkpoints/
+
+# R
+.Rhistory
+.RData
+.Rproj.user/
+*.Rproj
+
+# Figuras generadas (se regeneran con los notebooks)
+figuras/
+*.png
+*.pdf
+*.svg
+
+# Excepción: figuras del artículo publicado
+!docs/figuras_articulo/
+
+# Sistema
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Google Colab credentials
+service_account*.json
+credentials*.json
+token*.json
