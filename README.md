@@ -27,7 +27,6 @@ trayectorias-postdeforestacion-peru/
 │
 ├── gee/                             ← Scripts de Google Earth Engine (JavaScript)
 │   ├── 01_alertas_con_trayectoria.js    ← Pipeline principal T−1 / T+1 / Gini
-│   ├── 02_distancia_vias.js             ← Distancia de cada alerta a la red vial
 │   ├── 03_trayectorias_T2_T3.js         ← Seguimiento T+2 y T+3 (alertas 2021)
 │   ├── 04_pseudo_alertas_control.js     ← Grupo control (n=1 273 pseudo-alertas)
 │   └── 05_clasificacion_anp_ti.js       ← Categoría ANP y TI por alerta
