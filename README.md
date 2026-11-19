@@ -26,6 +26,8 @@ colab/
 python/
   01_resultados.py                     TODOS los análisis del artículo                       → resultados.json, tablas/
   02_figuras.py                        las 14 figuras del artículo (PNG, 300 dpi)            → figuras/
+  02_figuras_en.py                     las mismas figuras con etiquetas en inglés            → figures_en/
+  03_exportar_capas_sig.py             capas shapefile para mapas en ArcGIS Pro / QGIS        → capas/
 requirements.txt                       versiones exactas usadas
 ```
 
@@ -39,6 +41,13 @@ requirements.txt                       versiones exactas usadas
 python python/01_resultados.py --datos <carpeta_csv> --gpkg <alertas_con_distancia.gpkg> --salida resultados
 python python/02_figuras.py   --datos <carpeta_csv> --gpkg <alertas_con_distancia.gpkg> \
                               --limites gadm41_PER_1.json --resultados resultados
+```
+
+Opcional:
+
+```bash
+python python/02_figuras_en.py --datos <carpeta_csv> --gpkg <alertas_con_distancia.gpkg> --limites gadm41_PER_1.json --resultados resultados
+python python/03_exportar_capas_sig.py --datos <carpeta_csv> --gpkg <alertas_con_distancia.gpkg> --limites gadm41_PER_1.json                                        --resultados resultados --salida capas
 ```
 
 Todos los procedimientos estocásticos usan `random_state = 42`. `01_resultados.py` escribe cada valor citado en el artículo en `resultados/resultados.json`.
